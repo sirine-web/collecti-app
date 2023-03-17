@@ -16,7 +16,7 @@ import { useGetOrgnizationsQuery } from '../../endpoints/apiEndpoints';
   ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
   
   const BarChart =({approvedorgs, pendingorgs}) =>{
-  
+  console.log("rrrrrrrrr",approvedorgs)
     //Approved
     const [position, setPosition] = useState({ j: 0, f: 0 , m:0, a:0, may:0, jun:0, ju:0, aug:0, sep:0, oct:0, no:0, de:0});
     let jj=0
